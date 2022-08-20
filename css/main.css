@@ -4,7 +4,7 @@
 	Typography
 -------------------------------------------------------------------------------*/
 
-@import url(http://fonts.googleapis.com/css?family=Open%20Sans:300,400,500,600,700); 
+@import url(http://fonts.googleapis.com/css?family=Open%20Sans:300,400,500,600,700);
 p {
 	font-size: 14px;
 	line-height: 22.4px;
@@ -352,11 +352,11 @@ ul li {
 	/* color: #000; */
 }
 .btn4{
-	
+
 margin-top: 12%;
-	
+
 border-color: #000;
-	
+
 color: #000;
 }
 .intro h3 {
@@ -374,9 +374,9 @@ Common Styles
 ------------------------------------------------------------------------------- */
 .section-header{text-align: center;padding-bottom: 60px;}
 .section-header h2{
-	
+
 position: relative;
-	
+
 margin-bottom: 28px;
 }
 h2:before {
@@ -392,7 +392,7 @@ h2:before {
     margin: 0 auto;
 }
 .section-header p{
-	
+
 }
 
 
@@ -588,31 +588,31 @@ About
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
-	
+
 	.content-3-10 .image-container {
 		height: 100%;
 	}
-	
+
 	.content-3-10 .content {
 		margin-top: 0px;
 		padding: 80px 15px 80px 80px;
 		background: #efefef;
 	}
-	
+
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-	
-	
-	
+
+
+
 }
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
-	
-	
-	
+
+
+
 }
 /* pricingtable5 */
 #pricing5 {
@@ -680,7 +680,7 @@ ul.table-content .fa {
 	 package
 -------------------------------------------------------------------------------*/
 .packageList {
-	margin-bottom: 50px;  
+	margin-bottom: 50px;
 }
 h5 {
     font-size: 1.286em;
@@ -704,7 +704,7 @@ ul.list-default li {
 	padding: 1em 0 0.5em;
 }
 .package:hover {
-	background-color: #fbfbfb; 
+	background-color: #fbfbfb;
 }
 .package:hover h5 {
 	color: #ff67ab;
@@ -715,7 +715,7 @@ ul.list-default li {
 .package ul.list-default li {
 	border: none !important;
 	padding: 4px 0;
-} 
+}
 .package ul.list-default li:before {
 	top: 0.3em !important;
 }
@@ -958,3 +958,28 @@ footer.footer h2 {
 	font-size: 11px;
 	margin: 0 2px;
 }
+
+/* back to top */
+
+.back-to-top {
+  position: relative;
+  z-index: 2; }
+  .back-to-top .btn-dark {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    padding: 0;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #4ac959 ;
+    border-color: #4ac959 ;
+    display: none;
+    z-index: 999;
+    -webkit-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear; }
+    .back-to-top .btn-dark:hover {
+      cursor: pointer;
+      background: #FA6742;
+      border-color: #FA6742; }
