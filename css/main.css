@@ -49,7 +49,7 @@ h5 {
 	padding: 10px 15px;
 }
 .btn:hover, .btn:focus {
-	background-color: #8bc34a;
+	background-color: #008b8b;
 	color: #fff;
 	border-color: #72a536;
 }
@@ -67,7 +67,7 @@ h5 {
 	Global Styles
 -------------------------------------------------------------------------------*/
 a {
-	color: #8bc34a82;
+	color: #008b8b82;
 }
 a:hover, a:focus {
 	text-decoration: none;
@@ -124,7 +124,7 @@ ul li {
 	float: left;
 	font-size: 28px;
 	font-weight: bolder;
-	color: #8bc34a;
+	color: #008b8b;
 	text-decoration:none;
 	text-transform:uppercase;
 	letter-spacing: 3px;
@@ -166,7 +166,7 @@ ul li {
 	text-transform: uppercase;
 }
 .navigation a:hover, .navigation a.active {
-	color: #8bc34a !important;
+	color: #008b8b !important;
 }
 .nav-toggle {
 	display: none;
@@ -348,7 +348,7 @@ ul li {
 	$intro
 ========================================================================== */
 .intro {
-	background-color: #8BC34A;
+	background-color: #008b8b;
 	/* color: #000; */
 }
 .btn4{
@@ -383,7 +383,7 @@ h2:before {
     content: '';
     width: 78px;
     height: 4px;
-    background: #8bc34a;
+    background: #008b8b;
     position: absolute;
     bottom: -12px;
     left: 0;
@@ -427,7 +427,7 @@ h2:before {
     transform: rotate(3deg);
 }
 .services .icon {
-	color: #8bc34a;
+	color: #008b8b;
 	font-size: 52px;
 	/* padding-left: 15px; */
 	float: left;
@@ -636,7 +636,7 @@ About
 	font-size: 18px;
 	text-transform: uppercase;
 	text-align: center;
-	color: #8bc34a;
+	color: #008b8b;
 	font-weight: 600;
 }
 
@@ -672,7 +672,7 @@ About
 	line-height: 35px;
 }
 ul.table-content .fa {
-    color: #8bc34a;
+    color: #008b8b;
     font-size: 16px;
     margin-right: 5px;
 }
@@ -775,8 +775,8 @@ ul.list-default li {
 	float: none;
 }
 .social-icons a, .footer .footer-share a {
-	border: 1px solid #8bc34a;
-	color: #8bc34a;
+	border: 1px solid #008b8b;
+	color: #008b8b;
 	display: block;
 	font-size: 14px;
 	height: 32px;
@@ -786,15 +786,15 @@ ul.list-default li {
 	width: 32px;
 }
 .social-icons a:hover {
-	background-color: #8bc34a;
-	border-color: #8bc34a;
+	background-color: #008b8b;
+	border-color: #008b8b;
 	color: #fff;
 }
 /* ------------------------------------------------------------------------------
 	 Testimonials
 -------------------------------------------------------------------------------*/
 .testimonials {
-	background-color: #8bc34a;
+	background-color: #008b8b;
 	position: relative;
 	text-align: center;
 }
@@ -868,7 +868,7 @@ ul.list-default li {
 	border: #c1c1c1 1px solid;
 }
 .conForm .submitBnt {
-	background: #8bc34a;
+	background: #008b8b;
 	color: #070709;
 	margin-top: 30px;
 	padding:15px 30px 15px 30px;
@@ -930,7 +930,7 @@ footer.footer h2 {
     margin-top: 40px !important;
     font-size: 24px;
     padding-bottom: 15px;
-    color: #8bc34a;
+    color: #008b8b;
 }
 .footer p {
 	color: rgba(255, 255, 255, 0.25);
@@ -939,7 +939,7 @@ footer.footer h2 {
 	color: #648939;
 }
 .footer a:hover {
-	color: #8bc34a;
+	color: #008b8b;
 }
 .footer .footer-share {
 	margin-top: 0;
@@ -958,28 +958,3 @@ footer.footer h2 {
 	font-size: 11px;
 	margin: 0 2px;
 }
-
-/* back to top */
-
-.back-to-top {
-  position: relative;
-  z-index: 2; }
-  .back-to-top .btn-dark {
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
-    padding: 0;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background: #4ac959 ;
-    border-color: #4ac959 ;
-    display: none;
-    z-index: 999;
-    -webkit-transition: all 0.3s linear;
-    -o-transition: all 0.3s linear;
-    transition: all 0.3s linear; }
-    .back-to-top .btn-dark:hover {
-      cursor: pointer;
-      background: #FA6742;
-      border-color: #FA6742; }
