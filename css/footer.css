@@ -98,8 +98,8 @@ p {
    color:#007bff; }
 
 .dk-footer-box-info {
- position: absolute;
- top: -122px;
+ position: relative;
+ top: -120px;
  background: #202020;
  padding: 40px;
  z-index: 2; }
@@ -161,8 +161,8 @@ p {
 .footer-info-text {
  margin: 26px 0 32px; }
 
-.footer-left-widget {
- padding-left: 80px; }
+/* .footer-left-widget {
+ padding-left: 40px; } */
 
 .footer-widget .section-heading {
  margin-bottom: 35px; }
