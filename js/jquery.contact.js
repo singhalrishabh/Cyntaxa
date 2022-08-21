@@ -1,6 +1,6 @@
-(function($) { 
+(function($) {
 	"use strict";
-	
+
 jQuery(document).ready(function(){
 	$('#cform').submit(function(){
 
@@ -11,6 +11,7 @@ jQuery(document).ready(function(){
 
 		$.post(action, {
 			name: $('#name').val(),
+			number: $('#number').val(),
 			email: $('#email').val(),
 			comments: $('#comments').val(),
 		},
