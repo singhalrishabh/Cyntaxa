@@ -1,8 +1,5 @@
-/* ------------------------------------------------------------------------------
- 	Author: WebThemez
-/* ------------------------------------------------------------------------------
-	Typography
--------------------------------------------------------------------------------*/
+
+
 
 @import url(http://fonts.googleapis.com/css?family=Open%20Sans:300,400,500,600,700);
 p {
@@ -128,7 +125,9 @@ ul li {
 	text-decoration:none;
 	text-transform:uppercase;
 	letter-spacing: 3px;
-	margin-top: -10px;
+	 margin-top: -10px;
+	width: 200;
+	height: 200;
 }
 #header.fixed {
 	background-color: #070709;
