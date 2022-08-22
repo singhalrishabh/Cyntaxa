@@ -118,16 +118,15 @@ ul li {
 	transition: padding 0.3s;
 }
 #header .logo {
-	float: left;
+	/* float: left;
 	font-size: 28px;
 	font-weight: bolder;
 	color: #008b8b;
 	text-decoration:none;
 	text-transform:uppercase;
-	letter-spacing: 3px;
+	letter-spacing: 3px; */
 	 margin-top: -10px;
-	width: 200;
-	height: 200;
+
 }
 #header.fixed {
 	background-color: #070709;
