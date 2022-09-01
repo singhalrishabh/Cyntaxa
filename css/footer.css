@@ -24,8 +24,8 @@ p {
  bottom: 0;
  border-left: 10px solid #fff;
  border-right: 10px solid #fff;
- -webkit-animation: animborder 2s linear infinite;
- animation: animborder 2s linear infinite; }
+ -webkit-animation: animborder 1.5s linear infinite;
+ animation: animborder 1.5s linear infinite; }
 
 @-webkit-keyframes animborder {
  0% {
@@ -307,5 +307,3 @@ p {
      cursor: pointer;
      background: #FA6742;
      border-color: #FA6742; }
-
- 
