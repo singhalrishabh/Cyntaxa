@@ -1,3 +1,1 @@
-"# cyntaxa" 
-# cyntaxa
-# breza
+"# cyntaxa"
